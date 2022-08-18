@@ -1,0 +1,242 @@
+html{
+    font-family: 'lato';
+    font-size: 16px;
+    color: #333;
+}
+
+header{
+    min-height: 100vh;
+    background: linear-gradient( rgba(0,0,0,0.7) ,rgba(0,0,0,0.7) ) , url(../images/pexels-mathias-reding-9741487.jpg);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+    .logo{
+    height: 100px;
+    margin-top: 20px;
+    
+    }
+    
+    .main-nav{
+    list-style: none;
+    display: flex;
+    }
+    .main-nav li{
+    margin-right: 30px;
+    }
+    .main-nav li a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    }
+    .main-nav li a:hover{
+    text-decoration: underline;
+    color: blue;
+    }
+    .hero{
+    position: absolute;
+    top: 40%;
+    }
+    h1{
+        color: white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        line-height: 150%;
+        word-spacing: 5px;
+        letter-spacing: 3px;
+        margin-bottom: 30px;
+        }
+        .hero a{
+        margin-right: 20px;
+        border: solid 1px blue;
+        padding: 10px 20px 10px 20px;
+        border-radius: 10px;
+        text-decoration: none; 
+        color: blue;
+        }
+        .hero a:hover{
+        color: white;
+        background-color: blue;
+        }
+        section{
+            padding-top: 40px;
+            padding-bottom: 40px;
+            
+            }
+            h2{
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            word-spacing: 5px;
+            letter-spacing: 3px;
+            margin-bottom: 20px;
+            text-align: center;
+            
+            }
+            hr{
+            width: 100px;
+            border: solid 3px blue;
+            margin-bottom: 20px;
+            background-color: blue;
+            }
+            .care{
+            width: 60%;
+            margin-left:auto ;
+            margin-right:auto ;
+            margin-bottom: 20px;
+            line-height: 150%;
+            text-align: center;
+            }
+            .care{
+            text-align: center;
+            }
+            .care h3{
+            font-weight:400 ;
+            }
+            .care p{
+            font-weight: 300;
+            line-height:150%;
+            }
+            .care i{
+            color: blue;
+            
+            font-size: 36px;
+        
+            }
+      .health{
+         padding: 0;
+         margin-bottom: -5px;
+         background-color: black;
+         overflow: hidden;
+
+            }
+            
+     .health img{
+        width: 100%;
+        opacity: .5;
+         transition: 1s;
+        transform: scale(1.1);
+        }
+    .health img:hover{
+         opacity: 1;
+         transform: scale(1);
+           } 
+           #testimonials{
+            background:linear-gradient(rgba(37, 14, 80, 0.7) , rgba(37, 14, 80, 0.7)) ,
+            url(../images/back-customers.jpg);
+            
+            background-position: center;
+            background-size:cover ;
+            color: white;
+            }
+            #testimonials i{
+                font-size: 50px;
+            }
+            #testimonials p{
+                line-height:150%;
+            }
+            #testimonials img{
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+            vertical-align: middle;
+            }
+            form{
+                padding-top: 50px;
+                }
+                label{
+                font-weight: bold;
+                margin-bottom: 10px;
+                }
+                input[type=text],
+                input[type=email],
+                input[type=number] 
+                , textarea
+               
+                {
+                margin-bottom:10px ;
+                width:100% ;
+                padding: 5px;
+                border: 1px solid blue;
+                border-radius: 5px;
+                
+                }
+button{
+padding: 10px 20px;
+border: solid blue 2px;
+border-radius: 10px;
+background-color: blue;
+color: white;
+}
+
+button:hover{
+background-color: white;
+color: blue;
+}
+footer{
+    padding: 30px 0px;
+    background-color:rgba(37, 14, 80, 0.7) ;
+    }
+    footer p{
+    text-align: center;
+    color: #ccc;
+    }
+
+
+.social-icons{
+    margin-left: 20px;
+}
+h3{
+    color: #a37a28;
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.social-icons a{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(255,255,255,0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50px;
+    color: white;
+}
+.social-icons a:hover{
+    font-size: larger;
+    color: black ;
+    background-color: white;
+}
+
+
+
+
+
+
+
+
+                
+                
+
+
+
+
+
+
+ 
+
+
+ 
+   
+
+
+
+
+
+
